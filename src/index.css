@@ -19,3 +19,11 @@ input,
 textarea {
 	font: inherit;
 }
+:root {
+	--color-background: #f7f4ee;
+	--color-surface: #e8e1d5;
+	--color-sage: #b7c0ad;
+	--color-sage-dark: #8f9a86;
+	--color-text: #2d302c;
+	--color-white: #ffffff;
+}
