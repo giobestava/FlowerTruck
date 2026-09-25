@@ -1,6 +1,7 @@
 .hero {
 	padding: 80px 8%;
 	background-color: var(--color-background);
+	min-height: 100svh;
 }
 .hero-content {
 	display: grid;

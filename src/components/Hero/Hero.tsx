@@ -5,7 +5,6 @@ function Hero() {
 	return (
 		<section className="hero">
 			<div className="hero-content">
-				<p className="hero-eyebrow">FLOWER TRUCK</p>
 				<h1 className="hero-title">
 					Des fleurs <br /> autrement.
 				</h1>
