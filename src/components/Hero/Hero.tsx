@@ -1,12 +1,16 @@
+import { Link } from "react-router-dom";
 import flowerTruck from "../../images/Flower-truck.jpg";
 import "./Hero.css";
 
 function Hero() {
 	return (
 		<section className="hero">
+			<div className="hero-image__wrapper">
+				<img src={flowerTruck} alt="Flower Truck" />
+			</div>
 			<div className="hero-content">
 				<h1 className="hero-title">
-					Des fleurs <br /> autrement.
+					Des fleurs <br /> qui viennent <br /> à vous.
 				</h1>
 				<p className="hero-description">
 					Des creations florales uniques, directement depuis notre Flower truck,
@@ -15,12 +19,9 @@ function Hero() {
 					expérience florale inoubliable, notre Flower Truck est là pour vous
 					offrir des fleurs de qualité, où que vous soyez.
 				</p>
-				<a href="/flowers" className="hero-button">
+				<Link to="/flowers" className="hero-button">
 					Explorer nos fleurs
-				</a>
-				<div className="hero-image">
-					<img src={flowerTruck} alt="Flower Truck" />
-				</div>
+				</Link>
 			</div>
 		</section>
 	);
