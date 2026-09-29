@@ -16,7 +16,7 @@ function AboutSection() {
 					vient à votre rencontre.
 				</p>
 
-				<Link to="/a-propos" className="about-section__link">
+				<Link to="/about" className="about-section__link">
 					En savoir plus
 				</Link>
 			</div>
