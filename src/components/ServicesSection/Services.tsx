@@ -43,7 +43,7 @@ function Services() {
 					<div className="service-card__content">
 						<h3 className="service-card__title">NOS ATELIERS</h3>
 						<p className="service-card__text">
-							Un atelier créatif à La Rochelle et aoutour
+							Un atelier créatif à La Rochelle et autour
 						</p>
 					</div>
 					<Link to="/reservations" className="service-card__link">

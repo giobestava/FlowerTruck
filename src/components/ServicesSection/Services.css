@@ -9,7 +9,7 @@
 }
 .services-section__eyebrow {
 	margin: 0 0 1rem;
-	color: var(--color-sage-dark);
+	color: var(--color-text);
 	font-size: 0.7rem;
 	font-weight: 600;
 	letter-spacing: 0.18em;
@@ -60,7 +60,8 @@
 	margin: 0;
 	font-family: "DM Serif Display", serif;
 	font-size: 1.8rem;
-	font-weight: 400;
+	font-weight: 600;
+	color: var(--color-text);
 }
 .service-card__text {
 	max-width: 28rem;
@@ -87,7 +88,7 @@
 }
 @media (min-width: 768px) {
 	.services-section {
-		padding: 8rem 5%;
+		padding: 5rem 5%;
 	}
 	.services-section__header {
 		max-width: 40rem;
