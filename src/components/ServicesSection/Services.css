@@ -1,0 +1,105 @@
+.services-section {
+	padding: 5rem 1.5rem;
+
+	background-color: var(--color-background);
+	color: var(--color-text);
+}
+.services-section__header {
+	margin-bottom: 3rem;
+}
+.services-section__eyebrow {
+	margin: 0 0 1rem;
+	color: var(--color-text);
+	font-size: 0.7rem;
+	font-weight: 600;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+}
+.services-section__title {
+	margin: 0;
+	padding-bottom: 1rem;
+	font-family: "DM Serif Display", serif;
+	font-size: clamp(2.8rem, 11vw, 5rem);
+	font-weight: 400;
+	line-height: 0.95;
+	letter-spacing: -0.03em;
+}
+.services-section__grid {
+	display: grid;
+	gap: 3rem;
+}
+.service-card {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.service-card__image-wrapper {
+	width: 100%;
+	height: 70vw;
+	max-height: 30rem;
+	overflow: hidden;
+}
+.service-card__image-wrapper img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+	transition: transform 0.5s ease;
+}
+.service-card:hover .service-card__image {
+	transform: scale(1.03);
+}
+
+.service-card__content {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding-top: 1.25rem;
+}
+.service-card__title {
+	margin: 0;
+	font-family: "DM Serif Display", serif;
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: var(--color-text);
+}
+.service-card__text {
+	max-width: 28rem;
+	margin: 0.75rem 0 0;
+	font-size: 0.9rem;
+	line-height: 1.7;
+}
+.service-card__link {
+	display: inline-block;
+	margin-top: auto;
+	padding-top: 1rem;
+	color: var(--color-text);
+	font-size: 0.7rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: 1px solid currentColor;
+	padding-bottom: 0.03rem;
+	transform: opacity 0.2s ease;
+}
+.service-card__link:hover {
+	opacity: 0.6;
+}
+@media (min-width: 768px) {
+	.services-section {
+		padding: 5rem 5%;
+	}
+	.services-section__header {
+		max-width: 40rem;
+		margin: 0 auto 5rem;
+		text-align: center;
+	}
+	.services-section__grid {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2rem;
+	}
+	.service-card__image-wrapper {
+		height: 32rem;
+	}
+}
